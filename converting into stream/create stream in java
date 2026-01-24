@@ -1,0 +1,32 @@
+// How to create stream in java
+
+// importing the packages
+
+import java.util.*;
+import java.util.stream.stream;
+
+public class Test{
+    public static void main(String args[]){
+      
+      // Creating list of type string
+      
+      List<String> list = Arrays.asList("apple","banana","cherry");
+
+      // Converting into stream
+      Stream<String> myStream = list.stream();
+
+      // Creating array of type string
+      
+      String []array = {"apple","banana","cherry"};
+      Stream<String> streamArray = Arrays.stream(array);
+
+      // For Integer
+      Stream<Integer> integerStream = Stream.of(1,2,3);
+
+      // Printing the number from 1 to 100
+      Stream<Integer> limit = Stream.iterate(0,n -> n+1).limit(100);
+      
+      // Printing the random number from 1 to 100
+      Stream<Integer> limit1 = Stream.generate(() -> (int)(Math.random() * 100)).limit(100);      
+    }
+}
