@@ -1,0 +1,9 @@
+// What is the purpose of the java 8 ?
+
+ There are the 3 main purpose
+
+1. Consize and minimal code means small code
+
+2. In java we are missing the functional programming benefits in oops nature. To utilize functional programming benefits in java,Java 8 came
+
+3.To enable parallel programming.More compitable for the octa core processor.
