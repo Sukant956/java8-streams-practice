@@ -1,0 +1,14 @@
+// Features of java 8
+
+1. Lambda Expression -> It is used to initialize functional Interface in java
+2. Stream API -> Java Stream Api for bulk data operations on collections.
+3. Date and Time API -> Under the package of java.time java 8 offers new date time API.
+
+4. Base64 Encode Decode
+5. Method reference and constructor reference ->  :: operator
+6. Default and static method in interface
+
+7. Functional Interface
+8. Optional class
+9. Java IO improvement
+10. Collections API improvement
