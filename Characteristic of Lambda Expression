@@ -1,0 +1,26 @@
+// Characteresticts of Lambda Expression
+
+1. If body has only one function we can remove curly brackets
+
+// Example
+
+(int a, int b) -> {
+  System.out.println(a+b);
+}
+
+(int a, int b) -> System.out.println(a + b);
+
+2. Use type interface means compiler will automatically guess the situation and context
+
+// Example
+
+(a,b) -> System.out.println(a + b);
+
+3. No return Keyword
+
+  // Example
+  (str) -> str.length();
+
+4. If we have only one parameter then remove bracket
+
+str -> str.length();
