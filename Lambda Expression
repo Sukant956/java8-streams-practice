@@ -1,0 +1,35 @@
+// Lambda Expression
+
+// Steps to make any function lambda expression
+
+1. Remove Modifier
+2. Remove the return Type
+3. Remove method Name
+4. Place Array
+
+Example 
+
+private void sayHello(){
+  System.out.println("Hello");
+}
+
+// converting into lambda expression
+
+(int a, int b)->{
+  System.out.println("Hello");
+}
+
+
+// Example
+
+private int getStringLength(String str){
+     return str.length(); 
+}
+
+// converting into lambda expression
+
+(String str)-> {
+  return str.length();
+}
+
+
