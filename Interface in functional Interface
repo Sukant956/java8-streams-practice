@@ -1,0 +1,32 @@
+// Interface in functional Interface
+
+interface Parent{
+  void sayHello();
+}
+
+@FunctionalInterface
+interface child extends Parents{} // This is also  functional Interface
+
+Case 1
+
+@FunctionalInterface
+interface child extends Parents{
+  void sayBye();
+}
+
+Case 2 -> If we define the same method present in the parent it will accept
+@FunctionalInterface
+interface child extends Parent{
+  void sayHello();
+}
+
+Case 3 -> We can add default method also 
+@FunctionalInterface
+interface child extends parent{
+  void sayHello();
+default void sayBye(){
+
+};
+}
+
+
