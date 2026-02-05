@@ -1,0 +1,28 @@
+// Static method inside Interface
+
+Static method in Interface are those methods which are defined in the interface with the keyword static.
+
+Static method contains complete definition of the function.
+It cannot be overridden or changed in the implementation class
+
+interface Ainwik {
+  static void disp(){
+     System.out.println("This is static interface method");
+  }
+
+  default void info(){
+  Syastem.out.println("This is the default info");
+  }
+}
+class MyClass implements Ainwik{
+  public static void main(String []args){
+    Myclass obj = new Myclass();
+
+   // Calling Static function
+    Ainwik.disp();
+
+  //Calling default function
+   obj.info();
+   
+  }
+}
